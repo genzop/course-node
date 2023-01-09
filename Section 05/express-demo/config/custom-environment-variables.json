@@ -1,0 +1,6 @@
+// Configurar cuales variables deben ser leidas desde una variable de entorno
+{
+  "mail": {
+    "password": "app_password"
+  }
+}
