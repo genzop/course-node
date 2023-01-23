@@ -14,7 +14,7 @@ module.exports = function () {
     })
   );
 
-  winston.handleExceptions(
+  winston.exceptions.handle(
     new winston.transports.Console({ colorize: true, prettyPring: true }),
     new winston.transports.File({ filename: 'unhandledExceptions.log' })
   );
